@@ -1,0 +1,16 @@
+# No uploading photos and images
+*.jpg
+*.png
+
+# Python related
+*.pyc
+__pycache__/
+*.log
+local_settings.py
+
+# Distribution / packaging
+.Python
+
+# img folders
+photos/*
+editedPhotos/*
