@@ -5,13 +5,13 @@
 
 - Only applied some filters to an image.
 
-- Lacking features and implementations.
+- Lack features.
 
 - Completely out-of-date.
 
 CHANGELOG
 
 02/08/2022
-- UPDATED DEPENDENCIES
+- UPDATED DEPENDENCIES, PATHS AND ASSETS
 
-- BEGINNING OF A COMPLETE REWORK
+- MAYBE A REWORK WITH MORE FEATURES?
