@@ -1,6 +1,6 @@
 # No uploading photos and images
-*.jpg
-*.png
+# *.jpg
+# *.png
 
 # Python related
 *.pyc
@@ -12,5 +12,5 @@ local_settings.py
 .Python
 
 # img folders
-photos/*
+# photos/*
 editedPhotos/*
