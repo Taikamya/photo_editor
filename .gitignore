@@ -2,6 +2,12 @@
 # *.jpg
 # *.png
 
+# Virtual environment folders
+.env
+.venv
+ENV
+VENV
+
 # Python related
 *.pyc
 __pycache__/
