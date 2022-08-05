@@ -6,6 +6,9 @@ photos_folder = "./photos/"
 # where edited images will be
 edited_folder = "./editedPhotos/"
 
+# factor to alter effect - default 1.1 (10% increase)
+factor = 1.1
+
 # function to sharpen a single image
 def sharpen(file: str) -> None:
     '''This function applies the SHARPEN filter to an image file. '''
@@ -16,7 +19,6 @@ def sharpen(file: str) -> None:
     filtered_img = img.filter(ImageFilter.SHARPEN)
     # Contrast enhancer
     enhancer = ImageEnhance.Contrast(filtered_img)
-    factor = 1.1
     edited_img = enhancer.enhance(factor)
     # Clean filename to save it as something else
     clean_filename = os.path.splitext(file)[0]
@@ -32,7 +34,6 @@ def sharpen_all() -> None:
         filtered_img = img.filter(ImageFilter.SHARPEN)
         # Contrast enhancer
         enhancer = ImageEnhance.Contrast(filtered_img)
-        factor = 1.1
         edited_img = enhancer.enhance(factor)
         # Clean filename to save it as something else
         clean_filename = os.path.splitext(filename)[0]
