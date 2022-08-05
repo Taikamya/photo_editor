@@ -3,10 +3,7 @@
 # *.png
 
 # Virtual environment folders
-.env
-.venv
-ENV
-VENV
+venv
 
 # Python related
 *.pyc
